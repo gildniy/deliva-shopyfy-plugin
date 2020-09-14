@@ -1,34 +1,38 @@
 {
   "name": "deliva-shopyfy-plugin",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
-  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "keywords": [],
+  "author": "Gildas Niyigena <gildniy05@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/router": "^9.4.0",
+    "@shopify/app-bridge-react": "^1.27.2",
+    "@shopify/koa-shopify-auth": "^3.1.70",
+    "@shopify/koa-shopify-graphql-proxy": "^4.0.1",
+    "@shopify/koa-shopify-webhooks": "^2.5.0",
+    "@shopify/polaris": "^5.2.1",
+    "@zeit/next-css": "^1.0.1",
+    "apollo-boost": "^0.4.9",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.3.0",
+    "isomorphic-fetch": "^2.2.1",
+    "js-cookie": "^2.2.1",
+    "koa": "^2.13.0",
+    "koa-router": "^9.4.0",
+    "koa-session": "^6.0.0",
+    "neo-async": "^2.6.2",
+    "next": "^9.5.3",
+    "react": "^16.13.1",
+    "react-apollo": "^3.1.5",
+    "react-dom": "^16.13.1",
+    "store-js": "^2.0.4"
   }
 }
